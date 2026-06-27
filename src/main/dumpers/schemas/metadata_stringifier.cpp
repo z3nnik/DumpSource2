@@ -49,7 +49,15 @@ std::unordered_set<std::string> g_classWithBrokenDefaults = {
 	"CBlockSelectionMetricEvaluator",
 	"HitReactFixedSettings_t",
 	"RnSoftbodySpring_t",
-	"CAnimGraphDoc_GroupNode"
+	"CAnimGraphDoc_GroupNode",
+	"C_fogplayerparams_t",
+	"fogplayerparams_t",
+	"CBodyComponentBaseAnimating",
+	"CBodyComponentPoint",
+	"CSkeletonInstance",
+	"CGameSceneNode",
+	"CBodyComponentBaseAnimGraph",
+	"CBodyComponentSkeletonInstance"
 };
 
 std::vector<std::regex> g_regexFilters = {
